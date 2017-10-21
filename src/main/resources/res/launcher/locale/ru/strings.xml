@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <text name="help_text">
+        <string>Эта программа предназначена для скачивания музыкальных композиций с хранилища сервиса "Яндекс.Музыка".</string>
+        <string>Для работы необходим id композиции.</string>
+        <string>При успешном исполнении возвращает путь к сохраненному файлу.</string>
+        <string>Использование:</string>
+        <string>MusicLoaderLauncher [--[argName] [argValue]]</string>
+        <string>Аргументы:</string>
+        <string>help    -   Вывести эту справку и завершить выполнение программы</string>
+        <string>id      -   id композиции на сервере "Яндекс.Музыка" для скачивания</string>
+        <string>Пример использования:</string>
+        <string>MusicLoaderLauncher --id 31014492</string>
+    </text>
+    <text name="StageCompleted">
+        <string> этап закончен</string>
+    </text>
+    <text name="ArgumentOrderException">
+        <string>Нарушен порядок построения аргументов</string>
+    </text>
+    <text name="ArgumentStructureException_Sterile">
+        <string>Аргумент стерилен. Невозможно получить значение</string>
+    </text>
+</root>

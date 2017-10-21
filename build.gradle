@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'distribution'
+
+mainClassName = 'dantal.launcher.MusicLoader_Launcher'
+
+compileJava.options.encoding = 'UTF-8'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.json/json
+    compile group: 'org.json', name: 'json', version: '20170516'
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.3'
+    // https://mvnrepository.com/artifact/commons-codec/commons-codec
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.10'
+    // https://mvnrepository.com/artifact/org.dom4j/dom4j
+    compile group: 'org.dom4j', name: 'dom4j', version: '2.1.0'
+}
+
+jar {
+    baseName = 'YandexMusic'
+    version = '0.1'
+}
