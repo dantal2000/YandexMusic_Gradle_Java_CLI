@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <text name="help_text">
+        <string>This program is designed to download music from the repository of the service "Yandex.Music".</string>
+        <string>To work, you need the id of the composition.</string>
+        <string>On successful execution, it returns the path to the saved file.</string>
+        <string>Usage:</string>
+        <string>MusicLoaderLauncher [--[argName] [argValue]]</string>
+        <string>Args:</string>
+        <string>help    -   Display this help and end the program</string>
+        <string>id      -   id of the composition</string>
+        <string>Usage Example:</string>
+        <string>MusicLoaderLauncher --id 31014492</string>
+    </text>
+    <text name="StageCompleted">
+        <string> stage completed</string>
+    </text>
+    <text name="ArgumentOrderException">
+        <string>The order of the arguments is broken.</string>
+    </text>
+    <text name="ArgumentStructureException_Sterile">
+        <string>The argument is sterile. It is not possible to get the value of this argument.</string>
+    </text>
+</root>
