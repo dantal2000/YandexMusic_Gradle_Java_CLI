@@ -39,16 +39,6 @@ public class MusicLoader_Launcher {
     public static void main(String[] args) {
         ArgumentConverter.convertLineArgs(args, () -> {
             System.out.print(StringTaker.getString("help_text"));
-            /*System.out.println("Эта программа предназначена для скачивания музыкальных композиций с хранилища сервиса \"Яндекс.Музыка\".");
-            System.out.println("Для работы необходим id композиции.");
-            System.out.println("При успешном исполнении возвращает путь к сохраненному файлу.");
-            System.out.println("Использование:");
-            System.out.println("MusicLoaderLauncher [--[argName] [argValue]]");
-            System.out.println("Аргументы:");
-            System.out.println("help    -   Вывести эту справку и завершить выполнение программы");
-            System.out.println("id      -   id композиции на сервере \"Яндекс.Музыка\" для скачивания");
-            System.out.println("Пример использования:");
-            System.out.println("MusicLoaderLauncher --id 31014492");*/
         }, arguments -> arguments.containsKey("id"), arguments -> {
             try {
                 int id = Integer.parseInt(arguments.get("id").getValue());
