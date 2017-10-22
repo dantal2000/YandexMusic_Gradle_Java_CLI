@@ -1,10 +1,8 @@
 apply plugin: 'java'
 apply plugin: 'application'
-apply plugin: 'distribution'
 
 mainClassName = 'dantal.launcher.MusicLoader_Launcher'
-
-compileJava.options.encoding = 'UTF-8'
+sourceCompatibility = 1.8
 
 repositories {
     mavenLocal()
