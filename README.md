@@ -8,24 +8,24 @@
 
 # Building 
 ## Preparations
-####You will need
+#### You will need
 
  1. <i>[JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)</i>  with version more or equal than <b>1. 8</b>
  2. <i>[Gradle](https://gradle.org/install/)</i>  with version more or equal than <b>4. 2. 1</b>
 
-##Step 1 : Clone this repository
+## Step 1 : Clone this repository
 ```
 git clone https://github.com/dantal2000/YandexMusic_Gradle_Java_CLI.git
 ```
 or just download the zip-archive and extract it
 
-##Step 2 : Assemble the project with Gradle
+## Step 2 : Assemble the project with Gradle
 When you are in the root of the project files type
 ```
 gradle assembleDist
 ```
 
-##Step 3 : Extract distribution archive
+## Step 3 : Extract distribution archive
 In directory `build/distributions` you will be able to see some archives. Get one of them and extract on what you want folder.
 
 # Usage
