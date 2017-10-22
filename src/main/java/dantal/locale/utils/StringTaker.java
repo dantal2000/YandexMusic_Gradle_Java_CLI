@@ -66,12 +66,11 @@ public class StringTaker {
         String language = Locale.getDefault().getLanguage();
         String path = "strings.xml";
         switch (language) {
-            case "en":
-                path = "en/" + path;
-                break;
             case "ru":
-            default:
                 path = "ru/" + path;
+                break;
+            default:
+                path = "en/" + path;
         }
         path = "res/launcher/locale/" + path;
         return ClassLoader.getSystemClassLoader().getResourceAsStream(path);
