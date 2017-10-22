@@ -79,20 +79,20 @@ public class StringTaker {
         private String name;
         private List<String> strings;
 
-        public Text() {
+        Text() {
             name = "__NULL__";
             strings = null;
         }
 
-        public void setName(String name) {
+        void setName(String name) {
             this.name = name;
         }
 
-        public String getName() {
+        String getName() {
             return name;
         }
 
-        public void addString(String s) {
+        void addString(String s) {
             if (strings == null) strings = new ArrayList<>();
             strings.add(s);
         }
