@@ -88,10 +88,6 @@ public class StringTaker {
             this.name = name;
         }
 
-        public void setStrings(List<String> strings) {
-            this.strings = strings;
-        }
-
         public String getName() {
             return name;
         }
