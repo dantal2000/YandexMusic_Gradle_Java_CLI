@@ -66,6 +66,9 @@ public class StringTaker {
         String language = Locale.getDefault().getLanguage();
         String path = "strings.xml";
         switch (language) {
+            case "en":
+                path = "en/" + path;
+                break;
             case "ru":
             default:
                 path = "ru/" + path;
